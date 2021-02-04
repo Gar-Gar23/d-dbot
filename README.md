@@ -1,7 +1,10 @@
 # D&D Bot
     This is the added line.
     soon i will have a bot
-An example of a Discord.js Bot Handler. Updated and Maintained by the Idiot's Guide Community.
+ 
+Using the discord.js model 
+
+we  can build a self driving D&D bot
 
 Ages ago, Guide Bot was actually a little bot I had on the official discord.js server.
 It helped me link to the d.js bot making guide I was building, with links.
