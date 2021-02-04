@@ -20,7 +20,7 @@ for more info.
 
 ## Intents
 
-Guidebot uses intents which are required as of October 7, 2020. 
+D&Dbot uses intents which are required as of October 7, 2020. 
 You can enable privileged intents in your bot page 
 (the one you got your token from) under `Privileged Gateway Intents`.
 
@@ -33,7 +33,7 @@ For more info about intents checkout the [official Discord.js guide page](https:
 
 In a command prompt in your projects folder (wherever that may be) run the following:
 
-`git clone https://github.com/An-Idiots-Guide/guidebot.git`
+D&Dbot clone space
 
 Once finished: 
 
@@ -46,9 +46,5 @@ Once finished:
 To start the bot, in the command prompt, run the following command:
 `node index.js`
 
-## Inviting to a guild
-
-To add the bot to your guild, you have to get an oauth link for it. 
-
-You can use this site to help you generate a full OAuth Link, which includes a calculator for the permissions:
-[https://finitereality.github.io/permissions-calculator/?v=0](https://finitereality.github.io/permissions-calculator/?v=0)
+## Build my bot
+D&D bot could contain and number of commands
