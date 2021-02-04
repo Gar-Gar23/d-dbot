@@ -6,17 +6,11 @@ Using discord.js
 
 we  can build a self driving D&D bot
 
-Ages ago, Guide Bot was actually a little bot I had on the official discord.js server.
-It helped me link to the d.js bot making guide I was building, with links.
-This bot grew into something that I could show new coders and bot makers, but
-over time it grew into a full framework - one that is now under the hands of a 
-group of contributors, and no longer easily "understandable" by the majority
-of our newbies. So I've pulled the original Guide Bot out of the mothballs,
-gave it a fresh coat of paint and grease, and here it is back in its full glory!
+Using the 5e D&D rule sets from wizards of the coast and ....
+we can creat a bot to serve our table top needs over discord
 
 ## Requirements
 
-- `git` command line ([Windows](https://git-scm.com/download/win)|[Linux](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)|[MacOS](https://git-scm.com/download/mac)) installed
 - `node` [Version 12.0.0 or higher](https://nodejs.org)
 - The node-gyp build tools. This is a pre-requisite for Enmap, but also for a **lot** of other modules. See [The Enmap Guide](https://enmap.evie.codes/install#pre-requisites) for details and requirements for your OS. Just follow what's in the tabbed block only, then come back here!
 
@@ -30,10 +24,7 @@ Guidebot uses intents which are required as of October 7, 2020.
 You can enable privileged intents in your bot page 
 (the one you got your token from) under `Privileged Gateway Intents`.
 
-By default GuideBot needs the Guilds, Guild Messages and Direct Messages intents to work.
-For join messages to work you need Guild Members, which is privileged.
-User counts that GuideBot has in places such as in the ready log, and the stats 
-command may be incorrect without the Guild Members intent.
+
 
 Intents are loaded from your config, and will get created by the setup scripts.
 
