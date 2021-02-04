@@ -52,3 +52,20 @@ D&D bot could contain and number of commmands
 *experiece point calculator
 * coin toss
 * roll modifier, adding ones to hit or stat modifier to a roll
+
+
+##ideas big and small
+
+# DM tools 
+* loot roller in the book there are tables for this
+* encounter tables can get more in depth like region or condions for travel 
+* TOD generator ( Time of day)
+* simple city generators , features being pulled from a a few tables with  short lists of features ( population, number of key buildings etc.)
+* city landmarks and plot ideas
+* magic item lists legendary to mundane
+* whisper to player
+
+
+PLayer tools 
+*character emotes
+*whisper mechanic (for language barriers and private DM questions)
