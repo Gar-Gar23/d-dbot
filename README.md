@@ -69,3 +69,5 @@ D&D bot could contain and number of commmands
 PLayer tools 
 *character emotes
 *whisper mechanic (for language barriers and private DM questions)
+* character sheet and skill manager 
+blah blah blah stuff
