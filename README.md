@@ -1,4 +1,6 @@
-# Guide Bot
+# D&D Bot
+    This is the added line.
+    soon i will have a bot
 An example of a Discord.js Bot Handler. Updated and Maintained by the Idiot's Guide Community.
 
 Ages ago, Guide Bot was actually a little bot I had on the official discord.js server.
