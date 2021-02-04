@@ -1,16 +1,11 @@
-# D&D Botgit a
-    This is the added line.
-    soon i will have a bot
- 
-Using discord.js 
+# D&D Bot
 
-we  can build a self driving D&D bot
+Using discord.js, we  can build a self driving D&D bot 
 
 Using the 5e D&D rule sets from wizards of the coast and some home brew material
 we can creat a bot to serve our table top needs over discord, all started cause i wanted to learn code and i already know the 5th edition Players hand book by near memory.
 as a base line project this will be just a simple dice roller containing the standard set of 6 different die, with special rolls for percents and spell attacts  
 
-the master goal for this would be to have a small self ran module.
 
 ## Requirements
 
@@ -50,4 +45,4 @@ To start the bot, in the command prompt, run the following command:
 `node index.js`
 
 ## Build my bot
-D&D bot could contain and number of commands
+D&D bot could contain and number of commmands 
