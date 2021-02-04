@@ -44,5 +44,11 @@ Once finished:
 To start the bot, in the command prompt, run the following command:
 `node index.js`
 
-## Build my bot
+## Command my bot
 D&D bot could contain and number of commmands 
+*Dice rolling for d20, d12, d10, d8, d6, d4 , percentile
+* advanced rolls i.e advantage/ disadvantage, rolls adding multiple die (same or different)
+* codition reminder , brief summary of (blinded, charmed, restrained etc.)
+*experiece point calculator
+* coin toss
+* roll modifier, adding ones to hit or stat modifier to a roll
