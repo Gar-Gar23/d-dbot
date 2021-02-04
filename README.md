@@ -1,8 +1,8 @@
-# D&D Bot
+# D&D Botgit a
     This is the added line.
     soon i will have a bot
  
-Using the discord.js model 
+Using discord.js 
 
 we  can build a self driving D&D bot
 
