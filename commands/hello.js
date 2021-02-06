@@ -1,10 +1,7 @@
 exports.run = async (client, message, args, level) => {
-    client.on('message', message => {
-    if (message.content === '!Hello') {
-        message.author.send('Hello!');
-        }
+    if (message.content === `${prefix}greetings`) {
+        message.channel.send('Hello');
     }
-}
 exports.conf = {
   enabled: true,
   guildOnly: false,
