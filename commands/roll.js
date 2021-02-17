@@ -8,7 +8,7 @@
 exports.run = async (client, message, args, level) => { 
  
 switch(args[0]) {
-  default: "please give me a die to roll "
+  default: message.channel.send("please give me a die to roll.")
   case "d4":  var value = getRandomIntInclusive(1,4) 
     break; 
   case "d6": var value = getRandomIntInclusive(1,6) 
