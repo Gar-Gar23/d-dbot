@@ -1,6 +1,6 @@
 exports.run = async (client, message, args, level) => { 
   if (args[0] == "d4") { var value = getRandomIntInclusive(1,4) }
-  if (args[1] == "d6") {var value = getRandomIntInclusive(1,6) }
+  if (args[0] == "d6") {var value = getRandomIntInclusive(1,6) }
   function getRandomIntInclusive(min, max) {
     
     min = Math.ceil(min);
