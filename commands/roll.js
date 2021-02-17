@@ -1,5 +1,5 @@
 exports.run = async (client, message, args, level) => { 
-  if (args[0] == "~d4") { var value = getRandomIntInclusive(1,4) }
+  if (args[0] == "d4") { var value = getRandomIntInclusive(1,4) }
   function getRandomIntInclusive(min, max) {
     
     min = Math.ceil(min);
@@ -18,7 +18,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: "~roll",
+  name: "roll",
   category: "Miscelaneous",
   description: "this roller can do d4, d6",
   usage: "command arg1 arg2 [...]" 
