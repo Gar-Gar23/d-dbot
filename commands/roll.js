@@ -1,4 +1,4 @@
-function getRandomIntInclusive(min, max) {
+ switch(function getRandomIntInclusive(min, max) {
     
   min = Math.ceil(min);
   max = Math.floor(max);
@@ -6,7 +6,9 @@ function getRandomIntInclusive(min, max) {
 }
 
 exports.run = async (client, message, args, level) => { 
-  if (args[0] == "d4") { var value = getRandomIntInclusive(1,4) }
+  case 1:
+  (args[0] == "d4") { var value = getRandomIntInclusive(1,4) }
+  break; 
   if (args[0] == "d6") {var value = getRandomIntInclusive(1,6) }
   if (args[0] == "d8") {var value = getRandomIntInclusive(1,8) }
   if (args[0] == "d10") {var value = getRandomIntInclusive(1,10) }
