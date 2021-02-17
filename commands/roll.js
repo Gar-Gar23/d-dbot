@@ -1,13 +1,21 @@
 exports.run = async (client, message, args, level) => { 
-  if (args[0] == "d4") { var value = getRandomIntInclusive(1,4) }
+  if (args[0] == "d4") { var value1 = getRandomIntInclusive(1,4) }
   function getRandomIntInclusive(min, max) {
     
     min = Math.ceil(min);
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min + 1) + min); //The maximum is inclusive and the minimum is inclusive
   }
-  message.channel.send(value)
+  message.channel.send(value1)
 };
+
+if (args[1] == "d6") { var value2 = diceSet2(1,6) }
+  function diceSet2(min, max) {
+    min = Math.ceil(min);
+    max = MAth.floor(max);
+    return Math.floor(Math.random() * max - min + min);
+  }
+  message.channel.send(value2)
     
 
 
