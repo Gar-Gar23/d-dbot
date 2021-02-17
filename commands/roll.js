@@ -1,13 +1,14 @@
 exports.run = async (client, message, args, level) => { 
+  if (args[0] == "d4") { var value = getRandomIntInclusive }
   function getRandomIntInclusive(min, max) {
-    if (args[0] == "d4") { var value = getRandomIntInclusive() }
-    min = Math.ceil(1);
+    
+    min = Math.ceil(0);
     max = Math.floor(4);
-    message.channel.send(
-     Math.floor(Math.random() * (max - min + 1) + min)); //The maximum is inclusive and the minimum is inclusive
-    }
+    return Math.floor(Math.random() * (max - min + 1) + min); //The maximum is inclusive and the minimum is inclusive
   }
-
+  
+  
+};
 
 exports.conf = {
   enabled: true,
