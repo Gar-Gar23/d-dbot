@@ -8,11 +8,11 @@
 exports.run = async (client, message, args, level) => { 
  
 switch(args[0]) {
-  case "d4": { var value = getRandomIntInclusive(1,4) }
+  case "d4":  var value = getRandomIntInclusive(1,4) 
     break; 
-  case "d6": {var value = getRandomIntInclusive(1,6) }
+  case "d6": var value = getRandomIntInclusive(1,6) 
     break;
-  case "d8": {var value = getRandomIntInclusive(1,8) }
+  case "d8": var value = getRandomIntInclusive(1,8) 
   }
   if (args[0] == "d8") {var value = getRandomIntInclusive(1,8) }
   if (args[0] == "d10") {var value = getRandomIntInclusive(1,10) }
