@@ -42,6 +42,6 @@ exports.conf = {
 exports.help = {
   name: "roll",
   category: "Miscelaneous",
-  description: "this roller can do d4, d6",
+  description: "this roller can do d4, d6, d8, d10, d12, d20, and a d100",
   usage: "command arg1 arg2 [...]" 
 };
