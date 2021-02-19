@@ -8,8 +8,7 @@
 exports.run = async (client, message, args, level) => { 
  
 switch(args[0]) {
-  default: message.channel.send("please give me a die to roll.")
-    break;
+ 
   case "d4":  var value = getRandomIntInclusive(1,4) 
     break; 
   case "d6": var value = getRandomIntInclusive(1,6) 
@@ -26,10 +25,14 @@ switch(args[0]) {
     break;
   case "d100": var value = getRandomIntInclusive(1,100) 
     break;
+  default: message.channel.send("please give me a die to roll.")
+    break;
 
-  message.channel.send(value)
+  
   }
+  message.channel.send(value)
 };
+
 
 
 
@@ -44,6 +47,6 @@ exports.conf = {
 exports.help = {
   name: "roll",
   category: "Miscelaneous",
-  description: "this roller can do d4, d6, d8, d10, d12, d20, and a d100",
+  description: "this rolls a d4, d6, d8, d10, d12, d20, and a d100",
   usage: "command arg1 arg2 [...]" 
 };
