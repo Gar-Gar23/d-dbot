@@ -10,27 +10,33 @@ exports.run = async (client, message, args, level) => {
 switch(args[0]) {
  
   case "d4":  var value = getRandomIntInclusive(1,4) 
-    break; 
+    message.channel.send(value)
+      break; 
   case "d6": var value = getRandomIntInclusive(1,6) 
-    break;
+    message.channel.send(value)
+      break;
   case "d8": var value = getRandomIntInclusive(1,8) 
-    break;
+    message.channel.send(value)
+      break;
   case "d8": var value = getRandomIntInclusive(1,8) 
-    break;
+  message.channel.send(value)
+      break;
   case "d10": var value = getRandomIntInclusive(1,10) 
-    break;
+    message.channel.send(value)
+      break;
   case "d12": var value = getRandomIntInclusive(1,12) 
-    break;
-  case "d20": var value = getRandomIntInclusive(1,20) 
-    break;
+    message.channel.send(value)
+      break;
+  case "d20": var value = getRandomIntInclusive(1,20)
+    message.channel.send(value)
+      break;
   case "d100": var value = getRandomIntInclusive(1,100) 
-    break;
+    message.channel.send(value)
+      break;
   default: message.channel.send("please give me a die to roll.")
     break;
-
-  
   }
-  message.channel.send(value)
+  
 };
 
 
