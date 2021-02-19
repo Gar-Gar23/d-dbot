@@ -26,8 +26,9 @@ switch(args[0]) {
     break;
   case "d100": var value = getRandomIntInclusive(1,100) 
     break;
-}
+
   message.channel.send(value)
+  }
 };
 
 
