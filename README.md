@@ -18,7 +18,7 @@ for more info.
 
 ## Intents
 
-D&Dbot uses intents which are required as of October 7, 2020. 
+d-dbot uses intents which are required as of October 7, 2020. 
 You can enable privileged intents in your bot page 
 (the one you got your token from) under `Privileged Gateway Intents`.
 
@@ -35,7 +35,7 @@ D&Dbot clone space
 
 Once finished: 
 
-- In the folder from where you ran the git command, run `cd D&Dbot` and then run `npm install`
+- In the folder from where you ran the git command, run `cd d-dbot` and then run `npm install`
 - **If you get any error about python or msibuild.exe or binding, read the requirements section again!**
 - Run `node setup.js` to generate a proper configuration file and settings.
 
