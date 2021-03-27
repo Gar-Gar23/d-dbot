@@ -35,7 +35,7 @@ D&Dbot clone space
 
 Once finished: 
 
-- In the folder from where you ran the git command, run `cd d-dbot` and then run `npm install`
+- In the folder from where you ran the git command, run `cd d-dbot` and then run `npm install`    run 'nvm install 14 ' 
 - **If you get any error about python or msibuild.exe or binding, read the requirements section again!**
 - Run `node setup.js` to generate a proper configuration file and settings.
 
